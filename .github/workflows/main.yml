@@ -8,8 +8,8 @@ jops:
     runs-on: ubuntu-latest
 
     steps:
-      - name: "testing"
+      - name: 'testing'
         run: pwd
 
-      - name: "printing"
+      - name: 'printing'
         run: echo abdo
