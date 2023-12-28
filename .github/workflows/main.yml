@@ -3,13 +3,6 @@ on:
     branches:
       - app
 
-
-
-
-
-
-
-
 jops:
   build:
     runs-on: windows
@@ -19,7 +12,4 @@ jops:
         run: pwd
 
       - name: "printing"
-      run: echo abdo
-
-
-
+        run: echo abdo
