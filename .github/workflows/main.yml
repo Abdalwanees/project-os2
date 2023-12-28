@@ -1,1 +1,25 @@
+on:
+  push:
+    branches:
+      - app
+
+
+
+
+
+
+
+
+jops:
+  build:
+    runs-on: windows
+
+    step:
+      - name: "testing"
+        run: pwd
+
+      - name: "printing"
+      run: echo abdo
+
+
 
