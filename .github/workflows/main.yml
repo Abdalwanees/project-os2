@@ -5,9 +5,9 @@ on:
 
 jops:
   build:
-    runs-on: windows
+    runs-on: windows-10
 
-    step:
+    steps:
       - name: "testing"
         run: pwd
 
