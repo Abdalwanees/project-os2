@@ -8,8 +8,4 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: 'testing'
-        run: pwd
-
-      - name: 'printing'
-        run: echo abdo
+      - uses: actions/checkout@v3
