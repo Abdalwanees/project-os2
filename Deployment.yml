@@ -13,8 +13,8 @@ spec:
         name: my-web-app
     spec:
       containers:
-      - name: myapp
-        image: abdalwanees/os-project
+      - name: webapp
+        image: abdalwanees/webapp
         imagePullPolicy: IfNotPresent
         resources:
           limits:
